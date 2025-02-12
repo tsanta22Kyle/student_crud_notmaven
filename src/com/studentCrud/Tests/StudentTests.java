@@ -2,6 +2,7 @@ package com.studentCrud.Tests;
 
 import com.studentCrud.DAO.dbConnection;
 import com.studentCrud.DAO.*;
+import com.studentCrud.entities.Criteria;
 import com.studentCrud.entities.Student;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -248,5 +249,6 @@ public class StudentTests {
         Assertions.assertEquals(List.of(expectedStudent),actual);
 
     }
+
 
 }

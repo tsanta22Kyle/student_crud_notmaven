@@ -23,6 +23,6 @@ public class Student extends StudentBase {
 
     @Override
     public String toString(){
-        return this.getFirstname()+" is "+ this.getLastname() + " , "+ this.getId() + " , "+ this.getBirthdate();
+        return this.getFirstname()+" is "+ this.getLastname() + " , "+ this.getId() + " , "+ this.getBirthdate()+" sex : "+ this.getSex()+" in "+this.getGroup() + " as "+ this.getReference();
     }
 }
